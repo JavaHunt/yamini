@@ -1,0 +1,278 @@
+Abkhazian		Umshira udsnyhyelot
+Adyghe		Ukyzykhug’e mafemkIe sypfagushio!
+Azerbaijani		Ad günün mübarək
+Albanian 
+(Geg dialect)	Gzuar Dit-lindjën
+Albanian 
+(Tuscan dialect)	Gëzuar Ditëlindjen
+Aleutian		Raazdinyaam Ugutaa
+Altaic		Chykkan kӱnigerle! (Čıkkan kynigerle!)
+Amharic		መልከም ልደት (mälkam lədät)
+English		Happy Birthday!
+Arabic
+(Modern Literary)	كل عام و أنت بخير
+عيد ميلاد سعيد
+Arabic (Egyptian)	كل سنة و إنت طيّب
+كل سنة و إنت طيّب
+و إنت طيّبً
+و إنت طيّب
+Arabic (Lebanese)	3id miled sa3id
+Arabic (Moroccan)	عيد ميلاد سعيد
+Aragonese		Buen cabo d’anyo
+Felicidatz
+Aramaic		Yauwmo dmauwlodo brikho
+Edo bricho
+Armenian (Eastern)	Ծնունդդ շնորհավոր
+Armenian (Western)	շնորհաւոր ծննդեան տարեդարձ
+Aromanian		Ti multsã-anji!
+			Uràri cu-ucazea-a dzuùãljei di-aflari
+Assamese		জন্মদিনৰ শুভেচ্ছা
+			জন্মদিনৰ শুভকামনা
+Asturian		Feliz cumpleaños
+Afrikaans		Gelukkige verjaarsdag
+Bavarian dialect	Oiss guade
+			Oiss guade zum buadsdåg
+Basque		Zorionak!
+Bashkir		tyuғan kөnөң menәn
+Belorussian		Day narajannya
+Bemba			Sefya ubushiku wafyelwe
+Bengal		শুভ জন্মদিন।
+Bikolsky		Maogmáng Compleaño
+			Maogmáng Kaaldáwan
+Burmese		ပျော်စရာကောင်းသော မွေးနေ့ ပါ။
+Bislama		Yumi selebretem de blong bon blong yu
+Hapi betdei
+Bulgarian		Honors born den
+Bosnian		Sretan rođendan
+Breton		Deiz ha bloaz laouen
+			Kalz a vloavezhioù all
+Bhojpuri		जनमदिन मुबारक
+			Welsh	Penblwydd Hapus
+Walloon		Bone fièsse
+Hungarian		Boldog születésnapot
+Venetian		Bon compleano
+			tanti auguri
+Volapyuk		Motöfadeli yofik
+Vietnamese		Chúc mừng sinh nhật
+Vyrusky		Hüvvä sünnüpäävä
+			Pall’o õnnõ sünnüpääväs
+Hawaiian		Hauʻoli lā hānau
+Galician		Bo aniversario
+			feliz aniversario
+Haitian Creole	Bonn fèt
+			erez anivèsè
+Herero		Yoroka meyuva roye rongwatero
+Dutch (Dutch)	Gelukkige verjaardag
+			Gefeliciteerd met je verjaardag
+			Fijne Verjaardag
+			Van Harte Gefeliciteerd
+			Van Harte Gefeliciteerd met je verjaardag
+Georgian		გილოცავთ დაბადების დღეს
+Gaelic		Breithlá sona duit
+			Lá breithe sona duit
+Greek (Modern)	Χρόνια Πολλά!
+			Χαρούμενα Γενέθλια!
+
+Greenlandic		Inuuinni pilluarit
+Gujarati		જન્મ દિન મુબારક (janm din mūbaarak)
+Danish		Tillykke med fødselsdagen
+Jersey		Bouôn annivèrsaithe
+Old English		Fægen Borendæg
+Zazaki		Roca toya d? Nya-amaene bımbareke bo!
+Zulu			Halala ngosuku lokuzalwa
+Hebrew		יום הולדת שמח
+Igbo			Anụlị ụbọsị ọmụmụ
+Yiddish		א פריילעכן געבורצטאג
+Ido			Bona nasko-dio
+Felica 		nasko-dio
+			Ilokansky Naragsak a panagkasangay
+			Naragsak a kasangay
+Indonesian		Selamat ulang tahun
+Interlingua		Felice anniversario
+Inucicut		ᓇᓪᓕᐅᓂᖅᓯᐅᑦᓯᐊᕆᑦ
+(Nalliuniqsiutsiarit)
+Irish (Gaelic)	Breithlá sona duit
+			Lá breithe sona duit
+Icelandic		Til hamingju með afmælið
+Spanish		¡Feliz cumpleaños!
+Italian		Buon compleanno
+Yoruba		Ẹ ku Ayọ Ọjọ Ibi
+Kazakh		Tugan kuniymen!
+Tugan 		kunin utty bolsyn!
+Tugan 		kuniniz utty bolsyn!
+Kalmyk		Tөrsn өdrtn byrta boltha
+Kannada		ಹುಟ್ಟು ಹಬ್ಬದ ಶುಭಾಶಯ
+Catalan		Per molts anys
+Bon 			aniversari
+Moltes 		Felicitats
+Kashmiri		Tske chhuy wohurwod mubarak!
+Quechua		Kusikuy wata hunt’asqayki punchay
+Kyrgyz		Tuulgan kүnүң menen!
+			Tuulgan kүnүңүz menen!
+Kiribati		Tekeraoi n am bong ni bung!
+Chinese (Cantonese)	生日 快樂 [生日 快乐]
+Chinese (Hakka)	生日 快乐 [生日 快樂]
+Chinese (Mandarin)	生日 快乐 [生日 快樂]
+Chinese (Shanghai)	生日 快乐
+Chinese (Taiwanese)	生日 快樂
+Korean		생일 축하 합니다 (form)
+			생일 축하 드립니다 (form)
+			생신 축하 드립니다 (form)
+			생일 축하해 (inform)
+Kornsky		Penn-bloedh Lowen
+Corsican dialect of Italian	Felice anniversariu
+Couyonon		Malipayeng Adlao i ‘pagkatao
+			Maambeng nga pagbati sa imong pagkatao
+			Taoan kaw andan i’and Ginong Dios i’
+			 marake pang birtdi
+Kumyk			Tuvg’an gunyuguz bulan kutlayman
+Kurmanji (North Kurdish)	Rojbuna te pîroz be!
+Khmer			ជ រីករាយ ថ្ងៃខួបកំណើត
+Laotian		ສຸກ ສັນ ວັນ ເກີດ
+Latin			Felix dies natalis
+			Felix sit natalis dies
+Latvian		Daudz laimes dzimšanas dienā!
+			Apsveicu dzimšanas dienā
+Limburgish		Gelökkige verjaordaag
+Lithuanian		Su gimtadieniu
+			Sveikinu gimtadienio proga
+Losi			Lizazi la zwalo / sipepo leli munati
+			Lule Sami	Vuorbbe biejvijn!
+Luxembourgish	Vill Gléck fir däi Gebuertsdag! (
+unofficial )	 Vill Gléck fir äre Gebuertsdag! (form.)
+			Macedonian	Sreќen rodenden
+			(Sreken rodenden)
+Malagasy		Miarahaba anao nahatratra ny 
+			tsingerin-taona nahaterahanao
+			Tratry ny tsingerin-taona nahaterahanao
+Malay			Selamat hari jadi
+			Selamat hari lahir
+Malayalam		ജന്മദിനാശംസകൾ
+Maldivian		އުފާވެރި އުފަނދުވަހަކަހ އެދެނ
+Maltese		Heppi berdej
+Nixtieqlek 		jum għeluq sninek sabiħ
+Maori			Rā Whānau ki a Koe!
+Marathi		वाढदिवसाच्या हार्दिक शुभेच्छा
+Mongolian		Tөrsөn өdriyn bayar khүrge
+Manx			Laa-ruggyree sonney dhyt
+Navajo		Baa hózhǫ́ǫgo niʼdizhchį́
+Nahuatl		Ilhuitl
+			Tlacatilizilhuitl
+Ndebele (North)	Ube lelanga lokuzalwa elihle
+Ndebele (South)	Langelihle lokuzalwa
+Ilanga 		elimnandi lamabeletho
+German		Alles Gute zum Geburtstag
+Herzlichen 		Glückwunsch zum Geburtstag
+Nepali		जन्मदिनको शुभकामना!
+Low German		Allens Gode to’n Boortsdag!
+Norwegian		Gratulerer med dagen
+Gratulerer 		med fødselsdagen
+Occitan		Aürós aniversari!
+Okinawan		う 生日 嘉 例 吉 う ん ぬ き や び ら
+			う 誕生 日 嘉 例 吉 う ん ぬ き や び ら
+Oriya			ଜନ୍ମଦିନର ସୁଭେଚ୍ଛା
+Punjabi		ਜਨਮ ਦਿਨ ਮੁਬਾਰਕ। / جنم دِن مبارک
+Papiamento		Felis cumpleaño
+Persian (Farsi)	تولدت مبارک
+Polish		Wszystkiego najlepszego z okazji urodzin
+			Wszystkiego najlepszego!
+			Sto lat!
+Portuguese		Parabéns!
+			Feliz aniversário!
+Portuguese (Brazilian)	Parabéns!
+			Feliz aniversário!
+Pashto		د زیږیدلو کلیزه دی مبارک شه
+Romanian		La mulți ani
+Russian		Happy Birthday!
+Samoan		Ia manuia lou Aso Fanau
+Sanskrit		जन्मदिनशुभेच्छाः
+Sardinian		Auguri
+North soto		Mahlatse letšatšing la gago la matswalo
+			Letšatši la matswalo la Lethabo
+Northern Sami	Lihkku beivviin!
+Cebuano (cebuano)	Malipayong Adlawng Natawhan
+Serbian		Sreћan roђendan
+(Srećan rođendan)
+Sesotho		Letsatsi le monate la tswalo
+Sinhalese		සුභ උපන් දිනයක්
+			සුභපැතුම්
+Sicilian dialect	Agurij
+Slovak		Všetko najlepšie k narodeninám
+			Všetko najlepšie
+Slovenian		Vse najboljše
+			Vse najboljše za rojstni dan
+Somalia		Dhalasho wanaagsan
+Sorani (Central Kurdish)	Cejnî li daykbûnit pîroz bê
+			Rojbûnit pîroz bê
+			Rozhi la daikbunt piroz bet
+ﺟﻪﮊﻧﻰ ﻟﻪ ﺩﺍﻳﮏ ﺑﻮﻭﻧﺖ ﭘﻴﺮﯙﺯ بێت
+Swahili		Nakutakia mema katika siku yako ya kuzaliwa!
+			Sikukuu njema ya kuzaliwa!
+			Furaha katika siku yako ya kuzaliwa!
+			Heri katika siku yako ya kuzaliwa!
+Sudanese		Wilujeng tepang taun
+Tagalog (Tagalog)	Maligayang kaarawan
+Tahitian		Ia oaoa oe i to oe mahana fanaura’a
+Tamil			இனிய பிறந்த நாள் நல்வாழ்த்துக்கள்
+Tatar			Tugan könen belen
+Thai			สุขสันต์ วัน เกิด
+Telugu		జన్మదిన శుభాకాంక్షలు
+			పుట్టినరోజు శుభాకాంక్షలు
+Tetum			Ksolok Loron Tinan Nian
+Tibetan		སྐྱེས་ སྐར་ ལ་ བཀྲ་ ཤིས་ བདེ་ ལེགས་ ཞུ །
+Tigrinya		ርሑስ በዓል ልደት።
+Tok-pisin		Hepi berthde
+Tongan		Ma’u ha ‘aho fiefie
+			Ma’u ha’ aho fa’ele’i fiefia
+Tswana		Letsatsi la tswalo lele monate
+Tsonga		Ndzi tlangela siku ro velekiwa
+Turkish		Doğum günün kutlu olsun
+Uzbek			Tug’ilgan kuningiz bilan!
+			(Tugilgan kuningiz bilan!)
+Uigur			تۇغۇلغان كۈنىڭىزگە مۇبارەك!
+Ukrainian		Day of the people
+Urdu			سالگِرہ مبارک
+Faroese		Tillukku við føðingardegnum
+Fijian		Vanuinui vinaka ki na nomu siga ni sucu
+Finnish		Hyvää syntymäpäivää
+French		Bon anniversaire
+Frisian (Saterlandic)	Ales guuds tu dan gebuursdai
+Frisian (Western)	Fan herte lokwinske mei dyn jirdei
+Frisian (North)	Luklik tuleedelsdäi
+Friulian		Bon complean!
+Hausa			Barka da sabon shekera
+Hindi			जन्मदिन मुबारक हो
+			जन्मदिन की हार्दिक शुभकामनायें
+			सालगिरह मुबारक हो
+			सालगिरह की हार्दिक शुभकामनायें
+Croatian		Sretan rođendan
+Chabakano		Feliz cumpleaños
+Chamorro (Guam Dialect)	Felis Kumpliåños
+			Biba Kumpliåños
+Cherokee		ᎤᎵᎮᎵᏍᏗ ᏂᏣᏕᏘᏯ
+Chechen		Vina de dekala hulda h’an (m)
+			Yina de dek’ala hullda h’an (w)
+Czech			Všechno nejlepší k narozeninám!
+Chipevian		Nedzįné k’é nebá súghuá nį́dé nésdhen!
+Chicheva		Sangalalani pa tsiku la chibadwi chanu
+Swedish		Grattis på födelsedagen
+Swiss German	Härzlichi Glückwünsch zum Geburtstag
+Shona			Uve nezuva rakanaka rekuzvarwa
+			Uve nebhavhadhe rakanaka
+Scottish		Là breith sona dhuit
+Elvdal dialect	Grattis ą̊ fyöðelsdaem!
+Alsatian dialect	Viel Gleck zöm Gabursdàa
+Esperanto		Feliĉan datrevenon
+			Feliĉan naskiĝtagon
+			Feliĉan naskiĝfeston
+Estonian		Palju õnne sünnipäevaks
+Extremadura		Felicidais!
+Ewe			Dzigbenyue nawo
+			Dzigbeza bɔkɔɔ nawo
+South Sami		Lahkoe biejjine
+Yucatec Maya	Ki’imak k’iin k’aaba ‘!
+Javanese		ꦱꦸꦒꦼꦁꦠꦁꦒꦥ꧀ꦮꦂꦱ
+			(Sugeng Tanggap Warsạ) (Kromo Inggil)
+			ꦱ꧀ꦭꦩꦼꦠ꧀ꦲꦸꦭꦁꦠꦲꦸꦤ꧀
+			(Slamet Ulang Taun) (Ngoko)
+Japanese		お 誕生 日 お め で と う ご ざ い ま す

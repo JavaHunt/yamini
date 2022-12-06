@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+		<meta charset="utf-8">
+        <title>Happy Birthday</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+         
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+    
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+ 
+ 
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="booklet/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+
+		<link href="booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
+		 
+		 
+		 <style>
+         
+              *{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#eba426;	
+	color:#444;
+	font-size:12px;
+	color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+ 
+ 
+.booklet           {
+	width:900px;
+	height:607px;
+	position:relative;
+	margin:0 auto 10px;
+	-moz-box-shadow:0px 0px 1px #fff;
+	-webkit-box-shadow:0px 0px 1px #fff;
+	box-shadow:0px 0px 1px #fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.booklet .b-wrap-left  {
+	background:#fff url(images/left_bg.jpg) no-repeat top left;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.booklet .b-wrap-right {
+	background:#efefef url(images/right_bg.jpg) no-repeat top left;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.booklet .b-counter {
+	bottom:10px;
+	position:absolute;
+	display:block;
+	width:90%;
+	height:20px;
+	border-top:1px solid #ddd;
+	color:#222;
+	text-align:center;
+	font-size:12px;
+	padding:5px 0 0;
+	background:transparent;
+	-moz-box-shadow:0px -1px 1px #fff;
+	-webkit-box-shadow:0px -1px 1px #fff;
+	box-shadow:0px -1px 1px #fff;
+	opacity:0.8;
+}
+.book_wrapper{
+	margin:3 40 4 130;
+	padding-top:50px;
+	width:905px;
+	height:540px;
+	position:relative;
+	background:transparent url(images/bg.png) no-repeat 9px 27px;
+}
+.book_wrapper h1{
+	color:orange;
+	margin:5px 5px 5px 15px;
+	font-size:24px;
+	background:transparent url(images/h1.png) no-repeat bottom left;
+	padding-bottom:7px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.book_wrapper h2{
+	margin: 5px 5px 5px 15px;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 4em;
+	padding-top: 50%;
+	padding-left: 70%;
+}
+.book_wrapper h3{
+	margin: 5px 5px 5px 15px;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 50%;
+	padding-right: 20%;
+}
+.book_wrapper p{
+	font-size:15px;
+	margin:5px 5px 5px 15px;
+}
+.book_wrapper a.article,
+.book_wrapper a.demo{
+	background:transparent url(images/circle.png) no-repeat 50% 0px;
+	display:block;
+	width:95px;
+	height:41px;
+	text-decoration:none;
+	outline:none;
+	font-size:16px;
+	color:#555;
+	float:left;
+	line-height:41px;
+	padding-left:47px;
+}
+.book_wrapper a.demo{
+	margin-left:50px;
+}
+.book_wrapper a.article:hover,
+.book_wrapper a.demo:hover{
+	background-position:50% -41px;
+	color:#13386a;
+}
+.book_wrapper img{
+	margin:10px 0px 5px 35px;
+	width:300px;
+	padding:4px;
+	border:1px solid #ddd;
+	-moz-box-shadow:1px 1px 1px #fff;
+	-webkit-box-shadow:1px 1px 1px #fff;
+	box-shadow:1px 1px 1px #fff;
+}
+.booklet .b-wrap-right img{
+	border:1px solid #E6E3C2;
+}
+a#next_page_button,
+a#prev_page_button{
+	display:none;
+	position:absolute;
+	width:41px;
+	height:40px;
+	cursor:pointer;
+	margin-top:-20px;
+	top:50%;
+	background:transparent url(images/buttons.png) no-repeat 0px -40px;
+}
+a#prev_page_button{
+	left:-30px;
+}
+a#next_page_button{
+	right:-30px;
+	background-position:-41px -40px;
+}
+a#next_page_button:hover{
+	background-position:-41px 0px;
+}
+a#prev_page_button:hover{
+	background-position:0px 0px;
+}
+    
+.scroll-bg{
+	background:#011704ef;
+	width: 500px;
+	padding: 20px;
+	border-radius: 50px;
+	margin-left: 115%;
+}
+.scroll-div{
+	width: 500px;
+	background:#011704ef;
+	height: 450px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.scroll-object{
+	color: wheat;
+	font-family: cursive;
+	font-size: 15px;
+	padding: 10px;
+}
+
+        </style>
+		 
+	
+    </head>
+    <body>
+    <br><br><br><br>
+		<div>
+			<img src="images/h11.png" width="70px">
+		 	<img src="images/a1.png" width="70px" style="margin-bottom: 30px;">
+			<img src="images/p2.png" width="70px" height="70px" style="margin-bottom: -30px;">
+			<img src="images/p1.png" width="70px" style="margin-bottom: -10px;">
+			<img src="images/y2.png" width="70px" style="margin-bottom: 20px;">
+			<img src="images/b.png" width="70px" style="margin-left: 50px;">
+			<img src="images/i.png" width="70px" height="70px" style=" margin-bottom:-30px;">
+			<img src="images/r.png" width="70px" style="margin-bottom: 40px;">
+			<img src="images/t.png" width="70px" style="margin-bottom: -10px;">
+			<img src="images/h11.png" width="70px" style="margin-bottom: 30px; margin-left: -10px;">
+			<img src="images/d.png" width="70px" style="margin-bottom: -20px; margin-left: -15px;">
+			<img src="images/a1.png" width="70px">
+			<img src="images/y1.png" width="70px" style="margin-bottom: -10px">
+			<img src="images/y3.png" width="70px" style="margin-left: 50px; margin-bottom: -10px">
+			<img src="images/a2.png" width="70px" style="margin-bottom: 5px">
+			<img src="images/m.png" width="70px" style="margin-bottom: -15px">
+			<img src="images/i.png" width="70px" height="70px" style="margin-bottom: -10px">
+			<img src="images/n.png" width="70px" height="70px" style="margin-bottom: 5px">
+			<img src="images/i.png" width="70px" height="70px" style="margin-bottom: -10px">
+		</div>
+		
+		<div class="book_wrapper">
+			<a id="next_page_button"></a>
+			<a id="prev_page_button"></a>
+			 
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+					<div>
+						<img src="images/1.jpg" alt="img not loaded"/>
+						<h1>Friendship</h1>
+						<p>“A friend is someone who knows all about you and still loves you.”</p>
+						<a href="" class="article">ARTICLE</a>
+						<a href="" class="demo">DEMO</a>
+					</div>
+					<div>
+						<img src="images/2.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Friendship ... is born at the moment when one man says to another
+							 "What! You too? I thought that no one but myself . . .”</p>
+						
+					</div>
+					<div>
+						<img src="images/3.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Don’t walk in front of me… I may not follow
+							Don’t walk behind me… I may not lead
+							Walk beside me… just be my friend”</p>
+						
+					</div>
+					<div>
+						<img src="images/4.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“If you live to be a hundred, I want to live to be a hundred minus one day
+							 so I never have to live without you.”</p>
+						
+					</div>
+					<div>
+						<img src="images/5.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Friendship is unnecessary, like philosophy, like art.... 
+							It has no survival value; rather it is one of those 
+							things which give value to survival.”</p>
+						
+					</div>
+					<div>
+						<img src="images/6.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“You can't stay in your corner of the Forest 
+							waiting for others to come to you. You have 
+							to go to them sometimes.”</p>
+						
+					</div>
+					<div>
+						<img src="images/7.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Why did you do all this for me?' he asked. 'I don't deserve it. 
+							I've never done anything for you.' 
+							'You have been my friend,' replied Charlotte. 
+							'That in itself is a tremendous thing.”</p>
+						
+					</div>
+					<div>
+						<img src="images/8.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“He must have known I'd want to leave you."
+							"No, he must have known you would always want to come back.”</p>
+						
+					</div>
+					<div>
+						<img src="images/9.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Each friend represents a world in us, 
+							a world possibly not born until they arrive, 
+							and it is only by this meeting that a new world is born.”</p>
+						
+					</div>
+					<div>
+						<img src="images/10.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“It is more fun to talk with someone who doesn't use long, 
+							difficult words but rather short, 
+							easy words like "What about lunch?”</p>
+						
+					</div>
+					<div>
+						<img src="images/11.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Only a true best friend can protect you from your immortal enemies.”</p>
+						
+					</div>
+					<div>
+						<img src="images/12.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Friendships - and indeed most relationships - are measured in the closeness of hearts,
+							minds and soul ties... not in body</p>
+						
+					</div>
+					<div>
+						<img src="images/13.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Friendship is like a stubborn child who is playing hide and seek 
+							with your life. You have to find him at 
+							the darkest places of your heart in difficult times. 
+							And when you find the child; 
+							his smile will light up the darkness of your life.”</p>
+						
+					</div>
+					<div>
+						<img src="images/14.jpg" alt="" />
+						<h1>Friendship</h1>
+						<p>“Friends disappear
+							or they are powerless.
+							This is what misfortune means
+							an acid test of friendship.
+							I wouldn't wish it on anyone.”</p>
+						
+					</div>
+					<div>
+						<h2>The</h2>
+					</div>
+					<div>
+						<h3>END</h3>
+					</div>
+				</div>
+				<!--Scroll bar-->
+		<div class="scroll-bg">
+			<div class="scroll-div">
+				<div class="scroll-object">
+					<pre>
+Abkhazian		Umshira udsnyhyelot 
+Adyghe		   Ukyzykhug’e mafemkIe sypfagushio! 
+Azerbaijani		Ad günün mübarək
+Albanian 
+(Geg dialect)	Gzuar Dit-lindjën
+Albanian 
+(Tuscan dialect)	Gëzuar Ditëlindjen
+Aleutian			Raazdinyaam Ugutaa
+Altaic		Chykkan kӱnigerle! (Čıkkan kynigerle!)
+Amharic			መልከም ልደት (mälkam lədät)
+English			Happy Birthday!
+Arabic
+(Modern Literary)	كل عام و أنت بخير
+عيد ميلاد سعيد
+Arabic (Egyptian)	كل سنة و إنت طيّب
+					كل سنة و إنت طيّب
+					و إنت طيّبً
+					و إنت طيّب
+Arabic (Lebanese)	3id miled sa3id
+Arabic (Moroccan)	عيد ميلاد سعيد
+Aragonese		Buen cabo d’anyo
+Felicidatz
+Aramaic		Yauwmo dmauwlodo brikho
+Edo bricho
+Armenian (Eastern)	Ծնունդդ շնորհավոր
+Armenian (Western)	շնորհաւոր ծննդեան տարեդարձ
+Aromanian		Ti multsã-anji!
+			Uràri cu-ucazea-a dzuùãljei di-aflari
+Assamese		জন্মদিনৰ শুভেচ্ছা
+				জন্মদিনৰ শুভকামনা
+Asturian		Feliz cumpleaños
+Afrikaans		Gelukkige verjaarsdag
+Bavarian dialect	Oiss guade
+				Oiss guade zum buadsdåg
+Basque			Zorionak!
+Bashkir			tyuғan kөnөң menәn
+Belorussian		Day narajannya
+Bemba			Sefya ubushiku wafyelwe
+Bengal			শুভ জন্মদিন।
+Bikolsky		Maogmáng Compleaño
+				Maogmáng Kaaldáwan
+Burmese			ပျော်စရာကောင်းသော မွေးနေ့ ပါ။
+Bislama		Yumi selebretem de blong bon blong yu
+Hapi betdei
+Bulgarian		Honors born den
+Bosnian			Sretan rođendan
+Breton			Deiz ha bloaz laouen
+				Kalz a vloavezhioù all
+Bhojpuri		जनमदिन मुबारक
+				Welsh	Penblwydd Hapus
+Walloon			Bone fièsse
+Hungarian		Boldog születésnapot
+Venetian		Bon compleano
+				tanti auguri
+Volapyuk		Motöfadeli yofik
+Vietnamese		Chúc mừng sinh nhật
+Vyrusky			Hüvvä sünnüpäävä
+				Pall’o õnnõ sünnüpääväs
+Hawaiian		Hauʻoli lā hānau
+Galician		Bo aniversario
+				feliz aniversario
+Haitian Creole	Bonn fèt
+				erez anivèsè
+Herero			Yoroka meyuva roye rongwatero
+Dutch (Dutch)	Gelukkige verjaardag
+				Gefeliciteerd met je verjaardag
+				Fijne Verjaardag
+				Van Harte Gefeliciteerd
+			Van Harte Gefeliciteerd met je verjaardag
+Georgian		გილოცავთ დაბადების დღეს
+Gaelic			Breithlá sona duit
+				Lá breithe sona duit
+Greek (Modern)	Χρόνια Πολλά!
+				Χαρούμενα Γενέθλια!
+
+Greenlandic		Inuuinni pilluarit
+Gujarati		જન્મ દિન મુબારક (janm din mūbaarak)
+Danish			Tillykke med fødselsdagen
+Jersey			Bouôn annivèrsaithe
+Old English		Fægen Borendæg
+Zazaki		Roca toya d? Nya-amaene bımbareke bo!
+Zulu			Halala ngosuku lokuzalwa
+Hebrew			יום הולדת שמח
+Igbo			Anụlị ụbọsị ọmụmụ
+Yiddish			א פריילעכן געבורצטאג
+Ido				Bona nasko-dio
+Felica 			nasko-dio
+			Ilokansky Naragsak a panagkasangay
+				Naragsak a kasangay
+Indonesian		Selamat ulang tahun
+Interlingua		Felice anniversario
+Inucicut		ᓇᓪᓕᐅᓂᖅᓯᐅᑦᓯᐊᕆᑦ
+(Nalliuniqsiutsiarit)
+Irish (Gaelic)	Breithlá sona duit
+				Lá breithe sona duit
+Icelandic		Til hamingju með afmælið
+Spanish			¡Feliz cumpleaños!
+Italian			Buon compleanno
+Yoruba			Ẹ ku Ayọ Ọjọ Ibi
+Kazakh			Tugan kuniymen!
+Tugan 			kunin utty bolsyn!
+Tugan 			kuniniz utty bolsyn!
+Kalmyk			Tөrsn өdrtn byrta boltha
+Kannada			ಹುಟ್ಟು ಹಬ್ಬದ ಶುಭಾಶಯ
+Catalan			Per molts anys
+Bon 			aniversari
+Moltes 			Felicitats
+Kashmiri		Tske chhuy wohurwod mubarak!
+Quechua			Kusikuy wata hunt’asqayki punchay
+Kyrgyz			Tuulgan kүnүң menen!
+				Tuulgan kүnүңүz menen!
+Kiribati		Tekeraoi n am bong ni bung!
+Chinese (Cantonese)	生日 快樂 [生日 快乐]
+Chinese (Hakka)	生日 快乐 [生日 快樂]
+Chinese (Mandarin)	生日 快乐 [生日 快樂]
+Chinese (Shanghai)	生日 快乐
+Chinese (Taiwanese)	生日 快樂
+Korean			생일 축하 합니다 (form)
+				생일 축하 드립니다 (form)
+				생신 축하 드립니다 (form)
+				생일 축하해 (inform)
+Kornsky			Penn-bloedh Lowen
+Corsican dialect of Italian	Felice anniversariu
+Couyonon		Malipayeng Adlao i ‘pagkatao
+				Maambeng nga pagbati sa imong pagkatao
+				Taoan kaw andan i’and Ginong Dios i’
+				marake pang birtdi
+Kumyk			Tuvg’an gunyuguz bulan kutlayman
+Kurmanji (North Kurdish)	Rojbuna te pîroz be!
+Khmer			ជ រីករាយ ថ្ងៃខួបកំណើត
+Laotian			ສຸກ ສັນ ວັນ ເກີດ
+Latin			Felix dies natalis
+				Felix sit natalis dies
+Latvian			Daudz laimes dzimšanas dienā!
+				Apsveicu dzimšanas dienā
+Limburgish		Gelökkige verjaordaag
+Lithuanian		Su gimtadieniu
+				Sveikinu gimtadienio proga
+Losi			Lizazi la zwalo / sipepo leli munati
+				Lule Sami	Vuorbbe biejvijn!
+Luxembourgish	Vill Gléck fir däi Gebuertsdag! (
+unofficial )	Vill Gléck fir äre Gebuertsdag! (form.)
+				Macedonian	Sreќen rodenden
+				(Sreken rodenden)
+Malagasy		Miarahaba anao nahatratra ny 
+				tsingerin-taona nahaterahanao
+				Tratry ny tsingerin-taona nahaterahanao
+Malay			Selamat hari jadi
+				Selamat hari lahir
+Malayalam		ജന്മദിനാശംസകൾ
+Maldivian		އުފާވެރި އުފަނދުވަހަކަހ އެދެނ
+Maltese			Heppi berdej
+Nixtieqlek 		jum għeluq sninek sabiħ
+Maori			Rā Whānau ki a Koe!
+Marathi			वाढदिवसाच्या हार्दिक शुभेच्छा
+Mongolian		Tөrsөn өdriyn bayar khүrge
+Manx			Laa-ruggyree sonney dhyt
+Navajo			Baa hózhǫ́ǫgo niʼdizhchį́
+Nahuatl			Ilhuitl
+				Tlacatilizilhuitl
+Ndebele (North)	Ube lelanga lokuzalwa elihle
+Ndebele (South)	Langelihle lokuzalwa
+Ilanga 			elimnandi lamabeletho
+German			Alles Gute zum Geburtstag
+Herzlichen 		Glückwunsch zum Geburtstag
+Nepali			जन्मदिनको शुभकामना!
+Low German		Allens Gode to’n Boortsdag!
+Norwegian		Gratulerer med dagen
+Gratulerer 		med fødselsdagen
+Occitan			Aürós aniversari!
+Okinawan		う 生日 嘉 例 吉 う ん ぬ き や び ら
+				う 誕生 日 嘉 例 吉 う ん ぬ き や び ら
+Oriya			ଜନ୍ମଦିନର ସୁଭେଚ୍ଛା
+Punjabi			ਜਨਮ ਦਿਨ ਮੁਬਾਰਕ। / جنم دِن مبارک
+Papiamento		Felis cumpleaño
+Persian (Farsi)	تولدت مبارک
+Polish			Wszystkiego najlepszego z okazji urodzin
+				Wszystkiego najlepszego!
+				Sto lat!
+Portuguese		Parabéns!
+				Feliz aniversário!
+Portuguese (Brazilian)	Parabéns!
+				Feliz aniversário!
+Pashto			د زیږیدلو کلیزه دی مبارک شه
+Romanian		La mulți ani
+Russian			Happy Birthday!
+Samoan			Ia manuia lou Aso Fanau
+Sanskrit		जन्मदिनशुभेच्छाः
+Sardinian		Auguri
+North soto		Mahlatse letšatšing la gago la matswalo
+				Letšatši la matswalo la Lethabo
+Northern Sami	Lihkku beivviin!
+Cebuano (cebuano)	Malipayong Adlawng Natawhan
+Serbian			Sreћan roђendan
+(Srećan rođendan)
+Sesotho			Letsatsi le monate la tswalo
+Sinhalese		සුභ උපන් දිනයක්
+				සුභපැතුම්
+Sicilian dialect	Agurij
+Slovak			Všetko najlepšie k narodeninám
+				Všetko najlepšie
+Slovenian		Vse najboljše
+				Vse najboljše za rojstni dan
+Somalia			Dhalasho wanaagsan
+Sorani (Central Kurdish)	Cejnî li daykbûnit pîroz bê
+				Rojbûnit pîroz bê
+				Rozhi la daikbunt piroz bet
+ﺟﻪﮊﻧﻰ ﻟﻪ ﺩﺍﻳﮏ ﺑﻮﻭﻧﺖ ﭘﻴﺮﯙﺯ بێت
+Swahili		Nakutakia mema katika siku yako ya kuzaliwa!
+				Sikukuu njema ya kuzaliwa!
+			Furaha katika siku yako ya kuzaliwa!
+			Heri katika siku yako ya kuzaliwa!
+Sudanese		Wilujeng tepang taun
+Tagalog (Tagalog)	Maligayang kaarawan
+Tahitian		Ia oaoa oe i to oe mahana fanaura’a
+Tamil			இனிய பிறந்த நாள் நல்வாழ்த்துக்கள்
+Tatar			Tugan könen belen
+Thai			สุขสันต์ วัน เกิด
+Telugu			జన్మదిన శుభాకాంక్షలు
+				పుట్టినరోజు శుభాకాంక్షలు
+Tetum			Ksolok Loron Tinan Nian
+Tibetan			སྐྱེས་ སྐར་ ལ་ བཀྲ་ ཤིས་ བདེ་ ལེགས་ ཞུ །
+Tigrinya		ርሑስ በዓል ልደት።
+Tok-pisin		Hepi berthde
+Tongan			Ma’u ha ‘aho fiefie
+				Ma’u ha’ aho fa’ele’i fiefia
+Tswana			Letsatsi la tswalo lele monate
+Tsonga			Ndzi tlangela siku ro velekiwa
+Turkish			Doğum günün kutlu olsun
+Uzbek			Tug’ilgan kuningiz bilan!
+				(Tugilgan kuningiz bilan!)
+Uigur			تۇغۇلغان كۈنىڭىزگە مۇبارەك!
+Ukrainian		Day of the people
+Urdu			سالگِرہ مبارک
+Faroese			Tillukku við føðingardegnum
+Fijian			Vanuinui vinaka ki na nomu siga ni sucu
+Finnish			Hyvää syntymäpäivää
+French			Bon anniversaire
+Frisian (Saterlandic)	Ales guuds tu dan gebuursdai
+Frisian (Western)	Fan herte lokwinske mei dyn jirdei
+Frisian (North)	Luklik tuleedelsdäi
+Friulian		Bon complean!
+Hausa			Barka da sabon shekera
+Hindi			जन्मदिन मुबारक हो
+				जन्मदिन की हार्दिक शुभकामनायें
+				सालगिरह मुबारक हो
+				सालगिरह की हार्दिक शुभकामनायें
+Croatian		Sretan rođendan
+Chabakano		Feliz cumpleaños
+Chamorro (Guam Dialect)	Felis Kumpliåños
+				Biba Kumpliåños
+Cherokee		ᎤᎵᎮᎵᏍᏗ ᏂᏣᏕᏘᏯ
+Chechen			Vina de dekala hulda h’an (m)
+				Yina de dek’ala hullda h’an (w)
+Czech			Všechno nejlepší k narozeninám!
+Chipevian		Nedzįné k’é nebá súghuá nį́dé nésdhen!
+Chicheva		Sangalalani pa tsiku la chibadwi chanu
+Swedish			Grattis på födelsedagen
+Swiss German	Härzlichi Glückwünsch zum Geburtstag
+Shona			Uve nezuva rakanaka rekuzvarwa
+				Uve nebhavhadhe rakanaka
+Scottish		Là breith sona dhuit
+Elvdal dialect	Grattis ą̊ fyöðelsdaem!
+Alsatian dialect	Viel Gleck zöm Gabursdàa
+Esperanto		Feliĉan datrevenon
+				Feliĉan naskiĝtagon
+				Feliĉan naskiĝfeston
+Estonian		Palju õnne sünnipäevaks
+Extremadura		Felicidais!
+Ewe				Dzigbenyue nawo
+				Dzigbeza bɔkɔɔ nawo
+South Sami		Lahkoe biejjine
+Yucatec Maya	Ki’imak k’iin k’aaba ‘!
+Javanese		ꦱꦸꦒꦼꦁꦠꦁꦒꦥ꧀ꦮꦂꦱ
+			(Sugeng Tanggap Warsạ) (Kromo Inggil)
+			ꦱ꧀ꦭꦩꦼꦠ꧀ꦲꦸꦭꦁꦠꦲꦸꦤ꧀
+			(Slamet Ulang Taun) (Ngoko)
+Japanese		お 誕生 日 お め で と う ご ざ い ま す
+					</pre>
+				</div>
+			</div>
+		</div>
+			</div>
+			
+			
+		</div>
+
+		
+
+        
+        <script type="text/javascript">
+			$(function() {
+				var $mybook 		= $('#mybook');
+				var $bttn_next		= $('#next_page_button');
+				var $bttn_prev		= $('#prev_page_button');
+				var $loading		= $('#loading');
+				var $mybook_images	= $mybook.find('img');
+				var cnt_images		= $mybook_images.length;
+				var loaded			= 0;
+				 
+				$mybook_images.each(function(){
+					var $img 	= $(this);
+					var source	= $img.attr('src');
+					$('<img/>').load(function(){
+						++loaded;
+						if(loaded == cnt_images){
+							$loading.hide();
+							$bttn_next.show();
+							$bttn_prev.show();
+							$mybook.show().booklet({
+								name:               null,                            //  
+								width:              800,                             //  
+								height:             500,                             //   
+								speed:              600,                             //  
+								direction:          'LTR',                           //  
+								                           //  
+								next:               $bttn_next,          			//  
+								prev:               $bttn_prev,          			//  
+								                       
+							});
+							Cufon.refresh();
+						}
+					}).attr('src',source);
+				});
+				
+			});
+			function createBubble(){
+				const section = document.querySelector('section')
+				const createElement = document.createElement('span')
+				var size = Math.random() * 60;
+				createElement.style.width = 20 + size + 'px';
+				createElement.style.height = 20 + size + 'px';
+				createElement.style.left = Math.random() * innerWidth + 'px';
+				section.appendChild(createElement);
+
+				setTimeout(() => {
+					createElement.remove();
+				},4000
+				)
+			}
+        </script>
+ 
+    </body>
+ 
+</html>
